@@ -4,6 +4,8 @@ import express = require('express');
 // Create a new express application instance
 const app: express.Application = express();
 
+app.use(express.json());
+
 app.get('/', function (req, res) {
   res.send('Hello World!');
 });
