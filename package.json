@@ -6,8 +6,8 @@
   "scripts": {
     "tsc": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start2": "nodemon --exec ts-node app/app.ts",
-    "start": "node build/app.js"
+    "start": "nodemon --exec ts-node src/app.ts",
+    "start2": "node build/app.js"
   },
   "repository": {
     "type": "git",
